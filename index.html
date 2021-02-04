@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-
-  <body>
-      <header>
-          <h1> JavaScriasdasdaasdasdasdsasdasasdasdpt DOM </h1>
-      </header>
-
-    <main>
-      <button onclick = "mendapatkanTeks()">Tampilkan di paragraf</button>
-      <p></p>
-    </main>
-
-    <footer>
-    </footer>
-
-    <script src="index.js">
-
-    </script>
-  </body>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Tambahkan kode kalian di sini -->
+    <div id="video-background" >
+          <input type="text"/>
+    </div>
+    <header style="display: flex;"> <img width="180" src="https://bit.ly/2EuFNQZ" alt="burung wrc" />
+      <p style="width: 10px;padding-top: 1px;font-family: arial;">World Rainforest Conservation</p>
+      <video id="video" autoplay loop muted>
+        <source src="https://bit.ly/34qGnKk" type="video/mp4">
+      </video>
+       
+        
+    </header>
+    <div id="overlay-text">
+        <h1><b>Save The Rainforest</b></h1>
+        <h2>Save The Environment, Save The World.</h2>
+        
+    </div>
+    <h3 id="sub-header">A little background first</h3>
+    <h3 id="form-title">Help us protect them</h3>
+    <div id="petition">
+      <div id="petition-paragraph">
+        <p>The monsoon trough, alternatively known as the intertropical convergence zone, plays a significantrole in creating the climatic conditions necessary for the Earth's tropical rainforests: which aredistinct from monsoonal areas of seasonal tropical forest</p>
+        <p>In 2018, the IUCN Red List featured 379 animal and 655 plant species as endangered worldwide.The figures for 1998 were 1,102 and 1,197 respectively. Many nations have laws that protectconservation-reliant species: for example, forbidding hunting, restricting land development orcreating protected areas</p>
+        <p>Birds are a group of feathered theropod dinosaurs, and constitute the only living dinosaurs.Likewise, the closest living relatives of birds are the crocodilians. Birds are descendants of theprimitive avialans which first appeared about 160 million years ago in China. According to DNAevidence, modern birds evolved in the Middle to Late Cretaceous, and diversified dramaticallyaround the time of the Cretaceous.</p>
+        <p>The moment of extinction is generally considered to be the death of the last individual of thespecies, although the capacity to breed and recover may have been lost before this point (human-assisted breeding wasn't available yet). Because a species' potential range may be very large,determining this moment is not impossible, but extremely difficult.  Paleogene extinction event 66mya, which killed off the pterosaurs and all non-avian dinosaurs. Though they may not be extinctyet, they will soon be.</p>
+          </div>
+        <div id="petition-form">
+            <form id="petForm" onsubmit="asddd(); return false" >
+                <p><input id="first-name" type="text" ></p>
+                <p><input id="last-name" type="text" ></p>
+                <p><input id="city" type="text" ></p>
+                <p><input id="zip-code" type="number" ></p>
+                <p><input id="check" type="checkbox"></p>
+                <div id="warning"></div>
+                <button id="submit-form-button" type="submit" >Sign This Petition</button>
+            </form>
+        </div>
+    </div>
+</body>
 </html>

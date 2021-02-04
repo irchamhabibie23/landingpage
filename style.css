@@ -1,0 +1,61 @@
+/* Tambahkan kode CSS kalian di file ini */
+body {
+    background-color: rgb(36, 24, 34);
+    color: white;
+  }
+  
+  #video-background {
+      position: relative;
+  }
+  img{
+      position: relative;
+  }
+  
+  #video {
+    position: absolute;
+    top: 128px;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    font-size: 75px;
+    font-weight: bold;
+    left: 50px;
+    top: 164px;
+    font-family: arial;
+}
+
+h2 {
+    position: absolute;
+    top: 275px;
+    left: 53px;
+    font-size: 38px;
+}
+  
+
+#sub-header {
+    position: absolute;
+    bottom: 290px;
+    left: 185px;
+    font-family: arial;
+}
+
+#form-title{
+position: absolute;
+right: 185px;
+bottom: 290px;
+font-family: arial;
+}
+
+#petition-form {
+    position: absolute;
+    right: 195px;
+    bottom: 80px;
+    font-family: arial;
+}
+
+#warning {
+    position: absolute;
+    color: #FF0000;
+}

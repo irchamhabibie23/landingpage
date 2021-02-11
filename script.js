@@ -98,11 +98,4 @@ function resetForm(){
     document.getElementById("petForm").reset()
 }
 
-function asddd(){
-  dataForm = getFormData()
-  if (validateFormData(dataForm) != true ){
-    document.getElementById("warning").innerHTML = "Periksa form anda sekali lagi"
-  }else {
-      document.getElementById("warning").innerHTML = ""
-  } 
-}
+ 
